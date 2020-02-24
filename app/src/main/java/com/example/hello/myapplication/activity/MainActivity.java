@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import com.example.hello.myapplication.R;
 import com.example.hello.myapplication.common.events.CheckNewMedicPlanEvent;
+import com.example.hello.myapplication.utils.LameMp3Util;
 import com.example.hello.myapplication.utils.MediaPlayUtil;
 
 import org.greenrobot.eventbus.EventBus;
@@ -133,8 +134,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (file.exists()) {
                     Log.e("========","=========》");
                     //11025Hz采样率，16bit，单声道，mp3
-                    me.mi.mp3.util.LameUtil.init(8000, 1, 11025, 16, 7);;
-                    me.mi.mp3.util.LameUtil.encodeFile(pcmPath, mp3Path);
+                    LameMp3Util.init(8000, 1, 11025, 16, 7);;
+                    LameMp3Util.encodeFile(pcmPath, mp3Path);
                 }
 
                 break;

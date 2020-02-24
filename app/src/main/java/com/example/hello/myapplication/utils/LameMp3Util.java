@@ -1,6 +1,6 @@
 package com.example.hello.myapplication.utils;
 
-public class LameUtil {
+public class LameMp3Util {
 	static{
 		System.loadLibrary("mimp3lame");
 	}
