@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="exception_power_on_tip">请去设置里打开相应权限，否则不能正常使用APP</string>
+</resources>

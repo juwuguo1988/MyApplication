@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.clj.fastble.test" >
+4
+5    <uses-sdk
+5-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:11:5-15:70
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:13:22-53
+13        android:label="Tests for com.clj.fastble.test"
+13-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:15:22-68
+14        android:targetPackage="com.clj.fastble.test" />
+14-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:12:22-66
+15
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+16-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-74
+17-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-71
+18    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+18-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+18-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-81
+19-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-79
+20-->[__tested_artifact__::FastBleLib] /Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-76
+21
+22    <application android:debuggable="true" >
+22-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:7:5-9:19
+22-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:7:18-43
+23        <uses-library android:name="android.test.runner" />
+23-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:8:9-60
+23-->/Users/hello/Desktop/xzlcorp/AndroidStudioProjects/MyApplication/FastBleLib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5368649264284352985.xml:8:23-57
+24    </application>
+25
+26</manifest>

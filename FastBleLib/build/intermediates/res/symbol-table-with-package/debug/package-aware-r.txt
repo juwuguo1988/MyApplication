@@ -1,0 +1,2 @@
+com.clj.fastble
+string app_name
