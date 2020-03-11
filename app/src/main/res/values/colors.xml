@@ -3,4 +3,231 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!-- 不透明度对照表
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+    <color name="bg_home_gray">@color/c_f6f6f6</color> <!-- 灰色 -->
+
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="cut_line">#F7F7F7</color> <!-- 分割线 -->
+    <color name="tab_cut_line">#E8E8E8</color> <!-- 标题分割线 -->
+    <color name="transparent">#00000000</color> <!-- 透明 -->
+    <color name="list_home_bg">#f6f6f6</color> <!-- 灰色 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="black">#000000</color>
+    <color name="c_ff0000">#FF0000</color>
+    <color name="transf_black">#cc000000</color>
+    <color name="bg_f4f4f4">#F4F4F4</color>
+    <color name="c_cccccc">#CCCCCC</color> <!-- 灰色 -->
+    <color name="c_2c2f32">#2c2f32</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_333333">#333333</color>
+    <color name="c_6dd1c8">#6DD1C8</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_f5a623">#F5A623</color>
+    <color name="c_d58500">#D58500</color>
+    <color name="c_ffffff">#FFFFFF</color>
+    <color name="c_f2f2f2">#F2F2F2</color>
+    <color name="c_f7f7f7">#F7F7F7</color>
+    <color name="c_f93e4d">#F93E4D</color> <!-- 红色 -->
+    <color name="c_c5c5c5">#C5C5C5</color>
+    <color name="c_c3c3c3">#C3C3C3</color>
+    <color name="c_2bb2ba">#2BB2BA</color>
+    <color name="c_c1cbd7">#C1CBD7</color>
+    <color name="c_ff862e">#FF862E</color>
+    <color name="c_e14434">#E14434</color>
+    <color name="c_2bba60">#2BBA60</color>
+    <color name="c_3592de">#3592DE</color>
+    <color name="c_2b77b5">#2B77B5</color>
+    <color name="c_858e99">#858E99</color>
+    <color name="c_dde0e4">#DDE0E4</color>
+    <color name="c_545B62">#545B62</color>
+    <color name="c_f6f6f6">#f6f6f6</color>
+    <color name="c_e7e8eb">#E7E8EB</color>
+    <color name="c_d7e9f8">#D7E9F8</color>
+    <color name="c_32cc98">#32CC98</color>
+    <color name="c_ff9932">#FF9932</color>
+    <color name="c_d6e1ee">#D6E1EE</color>
+    <color name="c_f6f0dc">#F6F0DC</color>
+    <color name="c_cee2b6">#CEE2B6</color>
+    <color name="c_fead66">#FEAD66</color>
+    <color name="c_fd7a84">#FD7A84</color>
+    <color name="c_f65a66">#F65A66</color>
+    <color name="c_f5f5f5">#F5F5F5</color>
+    <color name="c_ff3a30">#FF3A30</color>
+    <color name="c_d9e8f3">#D9E8F3</color>
+    <color name="c_0061b0">#0061B0</color>
+    <color name="c_ffd15c">#FFD15C</color>
+    <color name="c_417505">#417505</color>
+    <color name="c_327ec1">#327EC1</color>
+    <color name="c_3195fa">#3195FA</color>
+    <color name="c_181818">#181818</color>
+    <color name="c_aa0814">#AA0814</color>
+    <color name="c_ff6458">#FF6458</color>
+    <color name="c_10bf79">#10BF79</color>
+    <color name="c_f6e6e7">#F6E6E7</color>
+    <color name="c_ffefee">#FFEFEE</color>
+    <color name="c_e7f8f1">#E7F8F1</color>
+    <color name="c_66a2fe">#66A2FE</color>
+    <color name="red_ff5f4b">#FF5F4B</color>
+    <color name="c_fff6c6">#FFF6C6</color>
+    <color name="c_55a5f6">#55A5F6</color>
+    <color name="c_fdc72f">#FDC72F</color>
+    <color name="c_bbbbbb">#BBBBBB</color>
+    <color name="c_e0e0e0">#E0E0E0</color>
+    <color name="c_e8e8e8">#E8E8E8</color>
+    <color name="c_e5e5e5">#E5E5E5</color>
+    <color name="transparent_menu">#55000000</color>
+    <color name="menu_item_text_color">@color/primary_gray_32</color>
+    <color name="c_979797">#979797</color> <!-- 分割线 -->
+    <color name="black_18">#181818</color>
+    <color name="c_3a3d40">#3A3D40</color>
+    <color name="c_3a3a4a">#3A3A3A</color>
+    <color name="remind_effect">#FF6F64</color>
+
+
+    <!--V2.0基础颜色-->
+    <!--整体用色-->
+    <color name="primary_white_ff">#ffffff</color>
+    <color name="primary_blue_deeper">#0061B0</color>
+    <color name="primary_blue_2b">#3592DE</color>
+    <color name="primary_yellow_da">#dab744</color>
+    <color name="primary_orange_db">#db7831</color>
+    <color name="primary_red_9e">#9e2b1f</color>
+    <color name="primary_red_dc">#dc4e3f</color>
+    <color name="primary_gray_f4">#f4f4f4</color>
+    <color name="primary_gray_f7">#f7f7f7</color>
+    <color name="primary_gray_f9">#f9f9f9</color>
+    <color name="primary_gray_e4">#dde0e4</color>
+    <color name="primary_gray_c5">#c5c5c5</color>
+    <color name="primary_gray_c3">#C3C3C3</color>
+    <color name="primary_gray_e5">#e5e5e5</color>
+    <color name="primary_gray_33">#333333</color>
+    <color name="primary_gray_66">#666666</color>
+    <color name="primary_gray_99">#999999</color>
+    <color name="primary_gray_32">#2c2f32</color>
+    <color name="primary_gray_858e">#858E99</color>
+    <color name="primary_gray_e8">#E8E8E8</color>
+    <color name="primary_status_color">#ffffff</color>
+
+    <color name="primary_orange_ff">#FF9932</color>
+    <color name="primary_green_2b">#32CC98</color>
+    <color name="primary_blue_2f">#3592DE</color>
+    <color name="primary_blue_light">#83BBE8</color>
+    <color name="primary_red_e1">#F65A66</color>
+
+    <color name="primary_light_orange_ff">#fff9f4</color>
+    <color name="primary_light_green_f4">#f4fbf7</color>
+    <color name="primary_light_blue_f4">#f4f9ff</color>
+    <color name="primary_light_red_ff">#fff3f0</color>
+    <color name="primary_gray_f8">#f8f8f8</color>
+
+    <color name="primary_document_blurring">#CCFF9932</color>
+    <color name="primary_document_invalid">#CCDC4E3F</color>
+    <color name="primary_document_valid">#CC32CC98</color>
+    <color name="primary_document_to_review">#CC333333</color>
+
+    <!--Nav&Tab-->
+    <color name="primary_nav_tab_line_e5">@color/primary_gray_e5</color>
+    <color name="primary_tab_selected_2b">@color/primary_blue_2b</color>
+    <color name="primary_tab_normal_99">@color/primary_gray_99</color>
+    <!--背景用色-->
+    <color name="primary_page_bg_f4">@color/primary_gray_f4</color>
+    <!--页面间隔线-->
+    <color name="primary_interval_line_f7">@color/primary_gray_f7</color>
+    <!--文本-->
+    <color name="primary_text_gray_33">@color/primary_gray_33</color>
+    <color name="primary_text_gray_66">@color/primary_gray_66</color>
+    <color name="primary_text_gray_32">@color/primary_gray_32</color>
+    <color name="primary_text_gray_99">@color/primary_gray_99</color>
+    <color name="primary_text_gray_e4">@color/primary_gray_e4</color>
+    <color name="primary_text_gray_c5">@color/primary_gray_c5</color>
+    <!--选择器文本颜色-->
+    <color name="wheel_picker_text_select">@color/primary_blue_2b</color>
+    <color name="wheel_picker_text_unselect">@color/c_c1cbd7</color>
+
+    <color name="picker_item_photo_border_selected">@color/primary_blue_2b</color>
+    <color name="picker_item_photo_border_normal">@color/primary_gray_f4</color>
+    <color name="picker_item_photo_directory_normal">@color/primary_white_ff</color>
+    <color name="picker_item_photo_directory_selected">@color/primary_nav_tab_line_e5</color>
+
+    <!--健康状态-->
+    <color name="health_state_normal_new">#10BF79</color>
+    <color name="health_state_high_new">#FF6458</color>
+    <color name="health_state_low_new">#66a2fe</color>
+    <color name="health_state_dangerous_new">#AA0814</color>
+
+    <color name="health_state_normal">@color/primary_green_2b</color>
+    <color name="health_state_high">@color/primary_orange_ff</color>
+    <color name="health_state_low">@color/primary_blue_2f</color>
+    <color name="health_state_dangerous">@color/primary_red_e1</color>
+    <color name="health_state_default">#EFF0F2</color>
+    <!-- 睡眠质量-优 -->
+    <color name="health_sleep_good">@color/primary_green_2b</color>
+    <!-- 睡眠质量-良好 -->
+    <color name="health_sleep_common">@color/primary_orange_ff</color>
+    <!-- 睡眠质量-差 -->
+    <color name="health_sleep_bad">@color/primary_red_e1</color>
+
+    <color name="user_nation_gray_pop">#88000000</color>
+
+    <color name="primary_amap_circle">#333F51B5</color>
+    <!--健康模块-->
+    <color name="health_title_bg_color">#D9E8F3</color>
+    <color name="health_item_type_color">@color/primary_gray_32</color>
+    <!--风险评估模块-->
+    <color name="risk_card_bg_low">@color/primary_green_2b</color>
+    <color name="risk_card_bg_middle">@color/primary_orange_ff</color>
+    <color name="risk_card_bg_high">@color/primary_red_e1</color>
+
+    <!--三方webView提示-->
+    <color name="third_tip_background">#F9EEDF</color>
+    <color name="third_tip_txt">#ff9022</color>
+
+    <color name="ripple">#e5e5e5</color>
+
+    <color name="full_screen_closed_color">#3195fa</color>
+    <color name="verify_code_input_error_tip">#EC615C</color>
+
+    <color name="bind_doctor_item_selected">#0088ff</color>
+
+    <!--预约就诊时间-->
+    <color name="selected_doctor_time_top_tip">#907f27</color>
+    <color name="bg_doctor_order">#f6f6f6</color>
+    <color name="main_blue">@color/c_3195fa</color>
+    <color name="main_bg_gray">#f9faf9</color>
+
+    <color name="pay_money">#fb8372</color>
+    <color name="chat_input_bottom_line">#d8d8d8</color>
+    <color name="diagnose_sub_title">#2c2f32</color>
+    <color name="preview_mock">#9a000000</color>
+
+    <color name="remind_bind_doctor_agreed">#10BF79</color>
+    <color name="remind_bind_doctor_refused">#FF6458</color>
+    <color name="bg_color">#f9faf9</color>
+    <color name="c_f8f8f7">#F8F8F7</color>
+    <color name="cro_over">#C17272</color>
+    <color name="cro_ongoing">#5AAE73</color>
 </resources>

@@ -8,4 +8,35 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="edit_15">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/c_3592de</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:textColorHint">@color/c_858e99</item>
+    </style>
+
+    <!--条目布局-->
+    <style name="primary_item_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--底部按钮样式-->
+    <style name="common_corner_bottom_blue_btn" parent="primary_item_layout">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primary_white_ff</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@drawable/selector_btn_blue_common_corner</item>
+    </style>
+
 </resources>
