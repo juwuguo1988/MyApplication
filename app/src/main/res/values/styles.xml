@@ -27,6 +27,11 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
+    <style name="s_bbbce2_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/c_bbbce2</item>
+    </style>
+
     <!--底部按钮样式-->
     <style name="common_corner_bottom_blue_btn" parent="primary_item_layout">
         <item name="android:gravity">center</item>

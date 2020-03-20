@@ -3,6 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="bg_14171f">#14171f</color> <!-- 输入框背景色 -->
+    <color name="bg_1c212d">#1c212d</color> <!-- 背景色 -->
+    <color name="c_bbbce2">#BBBEC2</color> <!-- 主文字色 -->
     <!-- 不透明度对照表
     100% — FF
     95% — F2

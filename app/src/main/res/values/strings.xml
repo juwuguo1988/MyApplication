@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="exception_power_on_tip">请去设置里打开相应权限，否则不能正常使用APP</string>
+    <string name="crop_photo">照片编辑</string>
+    <string name="prompt">提示</string>
+    <string name="i_know">我知道了</string>
+    <string name="cancel">取消</string>
+    <string name="invalid_crop_photo_text">无法解析该照片！\n请更换其他照片素材</string>
 </resources>
