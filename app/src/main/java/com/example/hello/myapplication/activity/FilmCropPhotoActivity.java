@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -19,6 +20,7 @@ import com.example.hello.myapplication.common.bean.BitmapModel;
 import com.example.hello.myapplication.common.views.CropPhotoView;
 import com.example.hello.myapplication.utils.config.AppConstant;
 import com.example.hello.myapplication.utils.ui.BitmapUtils;
+import com.example.hello.myapplication.utils.ui.BitmaptoCard;
 import com.example.hello.myapplication.utils.ui.DialogUtils;
 import com.example.hello.myapplication.utils.ui.UI;
 
@@ -26,6 +28,7 @@ public class FilmCropPhotoActivity extends AppCompatActivity {
     public DisplayMetrics dm;
     public int dmw, dmh;
     private CropPhotoView iv_crop_photo;
+    private Button btn_sure;
     private ImageView iv_crop_left90;
     private ImageView iv_crop_right90;
     private ImageView iv_crop_pull_lt, iv_crop_pull_lb, iv_crop_pull_rt, iv_crop_pull_rb;
@@ -65,6 +68,7 @@ public class FilmCropPhotoActivity extends AppCompatActivity {
         iv_crop_pull_rt = findViewById(R.id.iv_crop_pull_rt);
         iv_crop_pull_rb = findViewById(R.id.iv_crop_pull_rb);
         crop_area = findViewById(R.id.crop_area);
+        btn_sure = findViewById(R.id.btn_sure);
         photo_crop_frame_layout = findViewById(R.id.photo_crop_frame_layout);
         mask_top = findViewById(R.id.mask_top);
         mask_bottom = findViewById(R.id.mask_bottom);
@@ -431,6 +435,11 @@ public class FilmCropPhotoActivity extends AppCompatActivity {
 
                 return true;
             }
+        });
+        btn_sure.setOnClickListener(v -> {
+            String fileCropPath = "/storage/emulated/0/XZLFile/Photo";
+            String fileCropName = "截取图片.png";
+            BitmaptoCard.saveBitmapToSDCard(iv_crop_photo.getCropImage(), fileCropPath, fileCropName, 80);
         });
     }
 
