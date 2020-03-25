@@ -4,6 +4,13 @@
     <string name="crop_photo">照片编辑</string>
     <string name="prompt">提示</string>
     <string name="i_know">我知道了</string>
+    <string name="sure">确定</string>
     <string name="cancel">取消</string>
     <string name="invalid_crop_photo_text">无法解析该照片！\n请更换其他照片素材</string>
+
+    <string name="user_face_validation_title">人脸验证</string>
+    <string name="user_touch_to_focus">触摸屏幕对焦</string>
+    <string name="user_photo_crop_fail">裁剪失败</string>
+    <string name="user_photo_no_flash">该设备不支持闪光灯</string>
+    <string name="user_face_validation_tip">请将身份证四角与人像轮廓对准</string>
 </resources>

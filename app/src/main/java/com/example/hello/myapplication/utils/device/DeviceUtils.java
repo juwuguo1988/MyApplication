@@ -108,4 +108,36 @@ public class DeviceUtils {
         isOpen = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
         return isOpen;
     }
+
+    private static Camera camera;
+
+    /**
+     * 打开相机
+     *
+     * @return
+     */
+    public static Camera openCamera() {
+        camera = null;
+        try {
+            camera = Camera.open(); // attempt to get a Camera instance
+        } catch (Exception e) {
+            // Camera is not available (in use or does not exist)
+        }
+        return camera; // returns null if camera is unavailable
+    }
+
+    public static Camera getCamera() {
+        return camera;
+    }
+
+
+    /**
+     * 检查是否有闪光灯
+     *
+     * @return true：有，false：无
+     */
+    public static boolean hasFlash(Context context) {
+        return context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+    }
+
 }
