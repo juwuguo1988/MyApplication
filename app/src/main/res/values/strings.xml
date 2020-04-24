@@ -13,4 +13,12 @@
     <string name="user_photo_crop_fail">裁剪失败</string>
     <string name="user_photo_no_flash">该设备不支持闪光灯</string>
     <string name="user_face_validation_tip">请将身份证四角与人像轮廓对准</string>
+
+
+    <string name="tab_chat">对话</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_medicine">服药</string>
+    <string name="tab_notice">互动</string>
+    <string name="tab_health">达标</string>
+    <string name="tab_user">我的</string>
 </resources>

@@ -59,7 +59,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.LaunchActivity">
+        <activity android:name=".lazy.activity.LazyLoadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -72,7 +72,7 @@
         <activity android:name=".activity.FilmCropPhotoActivity" />
         <activity android:name=".counter.activity.InputCounterActivity" />
         <activity android:name=".counter.activity.DisplayCounterActivity" />
-
+        <activity android:name=".activity.LaunchActivity" />
         <!-- 拍摄身份证 -->
         <activity
             android:name=".activity.TakeUserCardPhotoActivity"
